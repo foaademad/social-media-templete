@@ -1,0 +1,150 @@
+*{
+
+    padding: 0%;
+    margin: 0%;
+    box-sizing:border-box;
+}
+body {
+    background-color: #f8f9fa;
+}
+
+.sidebar {
+    
+    color: rgb(0, 0, 0);
+    min-height: 100vh;
+}
+
+.post {
+    background: white;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.footer {
+    background: #343a40;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav a {
+    color: white;
+    margin-right: 40px;
+}
+
+nav a i {
+   margin-right: 20px;
+   font-size: 22px;
+}
+body{
+    background-color: #d8e4f0;
+}
+.container{
+    margin: 0% !important;
+}
+.about-me{
+ border-radius: 15px;
+ -webkit-border-radius: 15px;
+ -moz-border-radius: 15px;
+ -ms-border-radius: 15px;
+ -o-border-radius: 15px;
+}
+.about-me .info p{ 
+    font-size: 20px;
+}
+.events {
+    font-size: 20px;
+    background-color: #253b50;
+    color: white;
+    border-radius: 15px;
+}
+
+.tag {
+    margin: 2px;
+}
+
+.card {
+    border-radius: 15px;
+    
+}
+.notification-box {
+    padding: 15px;
+    border: 1px solid #ced4da;
+    border-radius: 5px;
+    background-color: #f8f9fa;
+    position: relative;
+    border-radius: 15px;
+}
+.close {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: #6c757d;
+    cursor: pointer;
+}
+.right-slide{
+    padding-top: 0%;
+}
+.card img{
+    border-radius: 15px;
+   
+}
+
+.row{
+    margin: 0%!important;
+}
+
+
+.navbar-brand{
+    color: white;
+    margin-right: 70px;
+}
+
+
+
+.navbar-brand-hidden{
+    display: none;
+}
+
+
+/* media query */
+
+@media (max-width: 1150px) {
+    .My_Profile{
+        display: none;
+    }
+    
+}
+@media (max-width: 991px) {
+    .r-sidebar{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 591px) {
+    .right{
+        display: flex;
+        align-items: center;
+    }
+    .right a{
+       margin-right:10px;
+    }
+    .navbar-brand{
+        
+        margin-right: 20px !important;
+    }
+}
+@media (max-width: 410px) {
+    
+    .navbar-brand-hidden{
+        display: inline;
+    }
+    .navbar-brand{
+        display: none;
+    }
+}
